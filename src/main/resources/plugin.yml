@@ -1,0 +1,12 @@
+name: serverip
+version: '${version}'
+main: org.milkteamc.serverip.Serverip
+api-version: 1.19
+description: A plugin can get your server ip.
+author: Maoyue
+commands:
+  serverip:
+    description: get server ip command
+    permission: milkteamc.serverip
+    permission-message: You do not have permission to use this command.
+    usage: /serverip
